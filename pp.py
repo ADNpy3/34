@@ -10,7 +10,7 @@ def print_message():
 
 
 # Schedule the task to run every day at 7:00 AM
-schedule.every().day.at("09:06:20").do(print_message)
+schedule.every().day.at("14:10:00").do(print_message)
 
 while True:
     schedule.run_pending()
