@@ -1,1 +1,1 @@
-cat README.md
+python3 pp.py
